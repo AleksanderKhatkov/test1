@@ -28,11 +28,11 @@ public class CalculatorTest {
     //positive function Division
     @Test
     public void testDivision() {
-        int result = calculator.division(0, 5);
+        int result = calculator.division(25, 5);
         if (result == 0) {
             Assert.fail("Expected : You cannot divide by zero");
         } else
-            Assert.assertEquals(result, 0);
+            Assert.assertEquals(result, 5);
     }
 
     //negatives function Division
